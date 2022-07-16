@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class GTMain {
     private static class Node{
         int data;
         ArrayList<Node> children;
@@ -34,7 +34,7 @@ public class Main {
     public static void display(Node n){
         System.out.print(n.data + " --->");
         for(Node child : n.children){
-            System.out.print(child.data + ' ');
+            System.out.print(child.data + " ");
         }
         System.out.println(".");
 
