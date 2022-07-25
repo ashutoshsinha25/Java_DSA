@@ -2,7 +2,7 @@ import java.util.*;
 
 public class GTMain {
     private static class Node{
-        int data;
+        int data; 
         ArrayList<Node> children;
         Node(int data){
             this.data = data;

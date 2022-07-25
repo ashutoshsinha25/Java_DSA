@@ -49,7 +49,6 @@ public class sizeOfGT {
 
         for(Node child : root.children){
             count += size(child);
-
         }
         count+=1;
 
