@@ -1,14 +1,15 @@
 {
     "java.project.sourcePaths": [
+        "9.Generic Tree",
         "6.Sorting",
         "5.Recursion",
         "4.2D Arrays",
         "3.Functions and Arrays",
         "2.Patterns",
-        "1.Getting Started",
-        "9.Generic Tree",
-        "10.Binary Tree",
         "12.DP",
-        "11.Graphs"
+        "11.Graphs",
+        "10.Binary Tree",
+        "1.Getting Started",
+        "5.String, Dynamic String and Dynamic Array"
     ]
 }
