@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class sizeOfGT {
     private static class Node{
         int data;
