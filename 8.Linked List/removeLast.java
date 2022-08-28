@@ -1,12 +1,12 @@
 import java.io.*;
 // import java.util.*;
 
-public class addFirst {
+public class removeLast {
   public static class Node {
     int data;
     Node next;
   }
-
+                    
   public static class LinkedList {
     Node head;
     Node tail;
@@ -85,17 +85,55 @@ public class addFirst {
     }
 
     public void addFirst(int val) {
-      // write your code here
-      Node n = new Node();
-      n.data = val;
-      if(this.size == 0){
-        this.head = this.tail = n;
-    
-      }else{
-        n.next = this.head;
-        this.head = n;
+      Node temp = new Node();
+      temp.data = val;
+      temp.next = head;
+      head = temp;
+      
+      if(size == 0){
+        tail = temp;
       }
-      this.size++;
+
+      size++;
+    }
+
+    public void addAt(int idx, int val){
+      if(idx < 0 || idx > size){
+        System.out.println("Invalid arguments");
+      } else if(idx == 0){
+        addFirst(val);
+      } else if(idx == size){
+        addLast(val);
+      } else {
+        Node node = new Node();
+        node.data = val;
+
+        Node temp = head;
+        for(int i = 0; i < idx - 1; i++){
+          temp = temp.next;
+        }
+        node.next = temp.next;
+
+        temp.next = node;
+        size++;
+      }
+    }
+
+    public void removeLast(){
+      // write your code here
+      if(this.size == 0) System.out.println("List is empty");
+      if(this.size == 1){
+        this.head = this.tail = null;
+      }else{
+        Node temp = head;
+        while(temp.next.next!=null){
+          temp = temp.next;
+        }
+        temp.next = null;
+        this.tail = temp;
+      
+      }
+      this.size--;
     }
   }
 
@@ -133,7 +171,13 @@ public class addFirst {
       } else if (str.startsWith("addFirst")) {
         int val = Integer.parseInt(str.split(" ")[1]);
         list.addFirst(val);
-      }
+      } else if (str.startsWith("addAt")) {
+        int idx = Integer.parseInt(str.split(" ")[1]);
+        int val = Integer.parseInt(str.split(" ")[2]);
+        list.addAt(idx, val);
+      } else if (str.startsWith("removeLast")) {
+        list.removeLast();
+      } 
       str = br.readLine();
     }
   }

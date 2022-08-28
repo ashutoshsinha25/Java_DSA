@@ -11,7 +11,7 @@ public class getValueAtIdx {
     Node head;
     Node tail;
     int size;
-
+              
     void addLast(int val) {
       Node temp = new Node();
       temp.data = val;

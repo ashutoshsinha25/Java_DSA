@@ -1,5 +1,5 @@
 import java.io.*;
-import java.util.*;
+// import java.util.*;
 
 public class addAtIdx {
   public static class Node {
@@ -37,7 +37,6 @@ public class addAtIdx {
       }
       System.out.println();
     }
-
     public void removeFirst() {
       if (size == 0) {
         System.out.println("List is empty");
