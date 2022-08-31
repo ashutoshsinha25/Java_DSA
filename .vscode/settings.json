@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "8.Linked List",
         "6.Recursion",
         "5.String, Dynamic String and Dynamic Array",
         "4.2D Arrays",
@@ -7,6 +8,6 @@
         "2.Patterns",
         "13. Hashmap and Heap",
         "1.Getting Started",
-        "8.Linked List"
+        "10.Generic Tree"
     ]
 }
