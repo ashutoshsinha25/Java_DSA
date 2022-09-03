@@ -131,7 +131,7 @@ public class levelOrderBT {
     }
 
     Node root = construct(arr);
-    levelOrder(root);
+    levelOrder1(root);
   }
 
 }

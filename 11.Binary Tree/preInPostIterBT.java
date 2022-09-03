@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class preInPostBT {
+public class preInPostIterBT {
   public static class Node {
     int data;
     Node left;

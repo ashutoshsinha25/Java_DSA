@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 //// 144. Binary Tree Preorder Traversal
     /**
  * Definition for a binary tree node.
@@ -14,19 +16,22 @@
  *     }lef
  * }
 */
-public class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-    TreeNode() {}
-    TreeNode(int val) { this.val = val; }
-    TreeNode(int val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
-        }
-    }
 public class preorderTraversal {
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+            }
+        }
+
+
+
     public ArrayList<Integer> preorder(TreeNode root) {
         ArrayList<Integer> ans = new ArrayList<>();
         
