@@ -16,7 +16,7 @@ public static void main(String[] args) throws Exception {
     for(int i = 0; i < n2; i++){
         arr2[i] = scn.nextInt();
     }
-
+    scn.close();
     printCommon(arr1 , arr2);
  }
  public static void printCommon(int[] arr1 , int[] arr2){

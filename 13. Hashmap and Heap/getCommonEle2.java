@@ -1,4 +1,4 @@
-import java.io.*;
+// import java.io.*;
 
 import java.util.*;
 
@@ -17,7 +17,7 @@ public class getCommonEle2 {
     for(int i = 0; i < n2; i++){
         arr2[i] = scn.nextInt();
     }
-
+    scn.close();
     printCommon(arr1 , arr2);
     
   }
