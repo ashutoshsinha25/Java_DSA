@@ -29,6 +29,7 @@ public class numberOfEmp {
     }
 
     // System.out.println(tree);
+    // change and return strategy 
     HashMap<String , Integer > ans = new HashMap<>();
     traverse(tree , ceo , ans);
 
@@ -41,15 +42,18 @@ public class numberOfEmp {
 
   public static int traverse(HashMap<String , HashSet<String>> tree, String manager ,  HashMap<String , Integer> ans){
     HashSet<String> emplist = tree.get(manager);
+    // base case
     if(emplist == null){ // leaf node 
       ans.put(manager , 0);
       return 1;
     }
+
+    // childrends work
     int size = 0;
     for(String emp : emplist){
       size += traverse(tree , emp , ans);
     }
-    
+    // our work 
     ans.put(manager , size);
     return size + 1 ;
   }
