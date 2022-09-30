@@ -5,11 +5,7 @@ public class itineraryFromTicket {
 		Scanner scn = new Scanner(System.in);
 		int noofpairs_src_des = scn.nextInt();
 		HashMap<String, String> map = new HashMap<>();
-
-
 		HashMap<String , Boolean> hm = new HashMap<>();
-
-
 		for (int i = 0; i < noofpairs_src_des; i++) {
 			String s1 = scn.next();
 			String s2 = scn.next();
