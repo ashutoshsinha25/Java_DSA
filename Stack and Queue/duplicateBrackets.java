@@ -1,9 +1,10 @@
 import java.util.*;
-public class Main{
-   public static void duplicateBrackets(String args[]){
+public class duplicateBrackets{
+   public static void main(String args[]){
       Scanner scn = new Scanner(System.in);
       String exp = scn.nextLine();
       System.out.println(checkDuplicate(exp));
+      scn.close();
    }
 
    public static boolean checkDuplicate(String exp){

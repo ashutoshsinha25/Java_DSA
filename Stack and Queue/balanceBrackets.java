@@ -1,13 +1,14 @@
 import java.util.*;
 
-public class balancedBrackets{
+public class balanceBrackets{
    public static void main(String args[]){
       Scanner scn = new Scanner(System.in);
       String exp = scn.nextLine();
-      System.out.println(balancedBrackets(exp));
+      System.out.println(balanced(exp));
+      scn.close();
    }
 
-   public static boolean balancedBrackets(String exp){
+   public static boolean balanced(String exp){
       Stack<Character> st = new Stack<>();
 
       for(int i = 0 ; i < exp.length() ; i++){
