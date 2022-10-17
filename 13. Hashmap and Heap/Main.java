@@ -23,5 +23,7 @@ public class Main {
         System.out.println(keys);
         //remove key , value 
         System.out.println(hm.remove("India") + " status --> " + hm);
+        System.out.println(hm.remove("India") + " status --> " + hm);
+
     }
 }
