@@ -11,7 +11,7 @@ public class Main {
     }
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        int nvtces = scn.nextInt();
+        int nvtces = scn.nextInt(); // first thig passed
         ArrayList<Edge>[] graph = new ArrayList[nvtces];
         // above array would have default value of null in all blocks
         // initialize with empty ararylist

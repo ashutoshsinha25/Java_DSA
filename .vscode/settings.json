@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "Stack and Queue",
         "Level2",
         "8.Linked List",
         "6.Recursion",
@@ -8,10 +9,10 @@
         "3.Functions and Arrays",
         "2.Patterns",
         "13. Hashmap and Heap",
+        "12.Binary Search Tree",
+        "11.Binary Tree",
         "10.Generic Tree",
         "1.Getting Started",
-        "11.Binary Tree",
-        "12.Binary Search Tree",
-        "Stack and Queue"
+        "14.Graphs"
     ]
 }
