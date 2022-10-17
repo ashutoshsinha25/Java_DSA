@@ -21,5 +21,7 @@ public class Main {
         // all keys 
         Set<String> keys = hm.keySet();
         System.out.println(keys);
+        //remove key , value 
+        System.out.println(hm.remove("India") + " status --> " + hm);
     }
 }
