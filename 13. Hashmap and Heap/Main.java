@@ -21,6 +21,9 @@ public class Main {
         // all keys 
         Set<String> keys = hm.keySet();
         System.out.println(keys);
+        for(String key :  keys){
+            System.out.println("key : " + key  + " value : " + hm.get(key));
+        }
         //remove key , value 
         System.out.println(hm.remove("India") + " status --> " + hm);
         System.out.println(hm.remove("India") + " status --> " + hm);
