@@ -12,8 +12,8 @@ public class duplicateBrackets{
 
       for(int i=0 ; i<exp.length() ; i++){
          char ch = exp.charAt(i);
-         if(ch == ' ') continue;
-         else if(ch == ')'){
+         // if(ch == ' ') continue; this condition not necess.
+         if(ch == ')'){
                if(st.peek() == '('){
                   return true;
                }else{
