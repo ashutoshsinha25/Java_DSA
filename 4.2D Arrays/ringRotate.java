@@ -17,7 +17,7 @@ public class ringRotate {
         int shellNo = scn.nextInt();
         int k = scn.nextInt();
         scn.close();
-        ringRotate(mat, shellNo, k);
+        rotate(mat, shellNo, k);
         display(mat);
     }
     public static int[] fill1d(int mat[][] , int shell){
@@ -105,7 +105,7 @@ public class ringRotate {
         reverse(a, 0, a.length - 1);
     }
     
-    public static void ringRotate(int mat[][], int shell, int k){
+    public static void rotate(int mat[][], int shell, int k){
         // 2d array to 1d array fill
         int arr[] = fill1d(mat , shell);
         // rotate 1d darray
