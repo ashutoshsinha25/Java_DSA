@@ -15,7 +15,7 @@ Understanding data structures and algorithms is crucial for writing efficient an
 To get started with this repository, follow these steps:
 
 1. Clone the repository to your local machine using the following command:
-* git clone https://github.com/your-username/your-repo.git
+* git clone 
 2. Install Java Development Kit (JDK) if you haven't already. You can download it from Oracle's website or use your preferred package manager.
 3. Open your favorite Java IDE or editor.
 4. Explore the repository's directory structure to find the data structures and algorithms you're interested in.
