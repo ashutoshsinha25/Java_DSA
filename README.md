@@ -14,8 +14,7 @@ Understanding data structures and algorithms is crucial for writing efficient an
 # Getting Started
 To get started with this repository, follow these steps:
 
-1. Clone the repository to your local machine using the following command:
-* git clone 
+1. Clone the repository to your local machine using the following command: 
 2. Install Java Development Kit (JDK) if you haven't already. You can download it from Oracle's website or use your preferred package manager.
 3. Open your favorite Java IDE or editor.
 4. Explore the repository's directory structure to find the data structures and algorithms you're interested in.
@@ -48,7 +47,7 @@ Just like the data structures, each algorithm has its dedicated directory with i
 Contributions to this repository are always welcome! If you have any data structures or algorithms that you would like to add or improve, please follow these steps:
 
 1. Fork the repository.
-2.Create a new branch for your contribution.
+2. Create a new branch for your contribution.
 3. Commit your changes and push the branch.
 4. Open a pull request, and provide a clear and concise description of your changes.
 
