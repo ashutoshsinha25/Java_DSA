@@ -1,6 +1,4 @@
 import java.util.Scanner;
-import java.lang.*;
-import java.io.*;
 public class spanofArray {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
