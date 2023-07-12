@@ -15,7 +15,7 @@ public class diffOfArray {
         }
         scn.close();
 
-        int[] out = diff(arr1 , arr2 );
+        // int[] out = diff(arr1 , arr2 );
 
     }
 
