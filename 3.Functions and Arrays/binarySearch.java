@@ -22,12 +22,12 @@ public class binarySearch {
         int st = 0 , ed = arr.length-1;
         while(st<=ed){
             int mid = (st+ed)/2;
-            if(arr[mid] == k){
-                return mid;
-            }else if(arr[mid] < k){
-                st = mid+1;
+            if(arr[mid] < k){
+                st = mid + 1;
+            }else if(arr[mid] > k){
+                ed = mid - 1;
             }else{
-                ed = mid-1;
+                return mid;
             }
         }
         return -1;
