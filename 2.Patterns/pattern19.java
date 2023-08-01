@@ -5,6 +5,7 @@ class Main {
         Scanner scn = new Scanner(System.in);
 
         int n = scn.nextInt();
+        scn.close();
         int middle = n/2+1;
         for(int r = 1 ; r <= n ; r++){
             for(int c = 1 ; c <= n ; c++){
