@@ -2,7 +2,6 @@ import java.io.*;
 import java.util.*;
 
 public class normalStack {
-
   public static class CustomStack {
     int[] data;
     int tos;

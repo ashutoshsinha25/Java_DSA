@@ -1,0 +1,630 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "basic",
+            "request": "launch",
+            "mainClass": "basic",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "add",
+            "request": "launch",
+            "mainClass": "add",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "addAtIdx",
+            "request": "launch",
+            "mainClass": "addAtIdx",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "addFirst",
+            "request": "launch",
+            "mainClass": "addFirst",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "addLast",
+            "request": "launch",
+            "mainClass": "addLast",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "allIdx",
+            "request": "launch",
+            "mainClass": "allIdx",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "arraydemo",
+            "request": "launch",
+            "mainClass": "arraydemo",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "binarySearch",
+            "request": "launch",
+            "mainClass": "binarySearch",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "ceilAndFloor",
+            "request": "launch",
+            "mainClass": "ceilAndFloor",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "countDigitInaNumber",
+            "request": "launch",
+            "mainClass": "countDigitInaNumber",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "differenceofArray",
+            "request": "launch",
+            "mainClass": "differenceofArray",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "digitOfaNumber",
+            "request": "launch",
+            "mainClass": "digitOfaNumber",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "digitfrequency",
+            "request": "launch",
+            "mainClass": "digitfrequency",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "display",
+            "request": "launch",
+            "mainClass": "display",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "endPointOfMatrix",
+            "request": "launch",
+            "mainClass": "endPointOfMatrix",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "finbonacciNumber",
+            "request": "launch",
+            "mainClass": "finbonacciNumber",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "findElementInArray",
+            "request": "launch",
+            "mainClass": "findElementInArray",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "firstIdx",
+            "request": "launch",
+            "mainClass": "firstIdx",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "firstIndex",
+            "request": "launch",
+            "mainClass": "firstIndex",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "firstNLastIdx",
+            "request": "launch",
+            "mainClass": "firstNLastIdx",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "getSubsequence",
+            "request": "launch",
+            "mainClass": "getSubsequence",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "getValueAtIdx",
+            "request": "launch",
+            "mainClass": "getValueAtIdx",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "gradingSystem",
+            "request": "launch",
+            "mainClass": "gradingSystem",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "infixEvaluate",
+            "request": "launch",
+            "mainClass": "infixEvaluate",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "isNumberPrime",
+            "request": "launch",
+            "mainClass": "isNumberPrime",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "kGroupReverse",
+            "request": "launch",
+            "mainClass": "kGroupReverse",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "kthNodeFromEnd",
+            "request": "launch",
+            "mainClass": "kthNodeFromEnd",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "lastIdx",
+            "request": "launch",
+            "mainClass": "lastIdx",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "lastIndex",
+            "request": "launch",
+            "mainClass": "lastIndex",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "linkedList",
+            "request": "launch",
+            "mainClass": "linkedList",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "linkedListToQueueAdapter",
+            "request": "launch",
+            "mainClass": "linkedListToQueueAdapter",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "linkedListToStackAdapter",
+            "request": "launch",
+            "mainClass": "linkedListToStackAdapter",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "matrixMultiplication",
+            "request": "launch",
+            "mainClass": "matrixMultiplication",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "maxOfArray",
+            "request": "launch",
+            "mainClass": "maxOfArray",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "mergeSort",
+            "request": "launch",
+            "mainClass": "mergeSort",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "mergeTwoSortedLL",
+            "request": "launch",
+            "mainClass": "mergeTwoSortedLL",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "midOfLL",
+            "request": "launch",
+            "mainClass": "midOfLL",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "nextGreaterEleToRight",
+            "request": "launch",
+            "mainClass": "nextGreaterEleToRight",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "oddEvenLL",
+            "request": "launch",
+            "mainClass": "oddEvenLL",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern1",
+            "request": "launch",
+            "mainClass": "pattern1",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern10",
+            "request": "launch",
+            "mainClass": "pattern10",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern11",
+            "request": "launch",
+            "mainClass": "pattern11",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern12",
+            "request": "launch",
+            "mainClass": "pattern12",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern14",
+            "request": "launch",
+            "mainClass": "pattern14",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern15",
+            "request": "launch",
+            "mainClass": "pattern15",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern16",
+            "request": "launch",
+            "mainClass": "pattern16",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern2",
+            "request": "launch",
+            "mainClass": "pattern2",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern3",
+            "request": "launch",
+            "mainClass": "pattern3",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern4",
+            "request": "launch",
+            "mainClass": "pattern4",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern5",
+            "request": "launch",
+            "mainClass": "pattern5",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern6",
+            "request": "launch",
+            "mainClass": "pattern6",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern7",
+            "request": "launch",
+            "mainClass": "pattern7",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern8",
+            "request": "launch",
+            "mainClass": "pattern8",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "pattern9",
+            "request": "launch",
+            "mainClass": "pattern9",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "postfixEvaluate",
+            "request": "launch",
+            "mainClass": "postfixEvaluate",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "powerLinear",
+            "request": "launch",
+            "mainClass": "powerLinear",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "powerLogarithmic",
+            "request": "launch",
+            "mainClass": "powerLogarithmic",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "printAllPalindromicSubstring",
+            "request": "launch",
+            "mainClass": "printAllPalindromicSubstring",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "printArrayDec",
+            "request": "launch",
+            "mainClass": "printArrayDec",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "printArrayInc",
+            "request": "launch",
+            "mainClass": "printArrayInc",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "printDecreasing",
+            "request": "launch",
+            "mainClass": "printDecreasing",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "printDecreasingIncreasing",
+            "request": "launch",
+            "mainClass": "printDecreasingIncreasing",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "printIncreasing",
+            "request": "launch",
+            "mainClass": "printIncreasing",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "printZ",
+            "request": "launch",
+            "mainClass": "printZ",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "printZigZag",
+            "request": "launch",
+            "mainClass": "printZigZag",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "printallPrimetillN",
+            "request": "launch",
+            "mainClass": "printallPrimetillN",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "removeAtIdx",
+            "request": "launch",
+            "mainClass": "removeAtIdx",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "removeDuplicateFromSortedLL",
+            "request": "launch",
+            "mainClass": "removeDuplicateFromSortedLL",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "removeFirst",
+            "request": "launch",
+            "mainClass": "removeFirst",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "removeLast",
+            "request": "launch",
+            "mainClass": "removeLast",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "removePrimes",
+            "request": "launch",
+            "mainClass": "removePrimes",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "reverseANumber",
+            "request": "launch",
+            "mainClass": "reverseANumber",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "reverseArray",
+            "request": "launch",
+            "mainClass": "reverseArray",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "reverseLLData",
+            "request": "launch",
+            "mainClass": "reverseLLData",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "reverseLLPoint",
+            "request": "launch",
+            "mainClass": "reverseLLPoint",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "ringRotate",
+            "request": "launch",
+            "mainClass": "ringRotate",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "rotateArray",
+            "request": "launch",
+            "mainClass": "rotateArray",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "spanofArray",
+            "request": "launch",
+            "mainClass": "spanofArray",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "spiralDisplay",
+            "request": "launch",
+            "mainClass": "spiralDisplay",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "stateOfWakanda1",
+            "request": "launch",
+            "mainClass": "stateOfWakanda1",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "stringCompression",
+            "request": "launch",
+            "mainClass": "stringCompression",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "subArray",
+            "request": "launch",
+            "mainClass": "subArray",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "sumofArray",
+            "request": "launch",
+            "mainClass": "sumofArray",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "toggleCase",
+            "request": "launch",
+            "mainClass": "toggleCase",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "towerOfHanoi",
+            "request": "launch",
+            "mainClass": "towerOfHanoi",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
+            "name": "valueToIndex",
+            "request": "launch",
+            "mainClass": "valueToIndex",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        }
+    ]
+}
