@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "balanceBrackets",
+            "request": "launch",
+            "mainClass": "balanceBrackets",
+            "projectName": "Data Structures and Algorithms_11c2ef44"
+        },
+        {
+            "type": "java",
             "name": "basic",
             "request": "launch",
             "mainClass": "basic",
